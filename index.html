@@ -36,6 +36,7 @@
         <div id="forminput" style="display: none;">
             <label for="jenis">Pilih Perhitungan:</label>
             <select id="jenis">
+                <option value="">-- Pilih --</option>
                 <option value="luas">Luas</option>
                 <option value="keliling">Keliling</option>
             </select>
@@ -54,12 +55,14 @@
                 <input type="number" id="lebar" placeholder="Masukkan lebar">
             </div>
 
-            <!--button untuk hitung dan reset-->
+            <!--button untuk hitung-->
             <button onclick="hitung()" class="hitung">Hitung</button>
-            <button onclick="reset()" class="reset">Reset</button>
             
             <!--menampilkan hasil-->
             <div class="result" id="hasil"></div>
+            
+            <!--button reset-->
+            <button onclick="reset()" class="reset">Reset</button>
         </div>
     </div>
 

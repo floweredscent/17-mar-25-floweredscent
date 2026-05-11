@@ -31,17 +31,19 @@ body {
     border: 2px solid black;
     border-radius: 5px;
 }
-select, input, button {
+select, input, .hitung, .reset {
     width: 90%;
     padding: 10px;
-    margin: 20px 0;
+    margin: 20px auto;
+    display: block;
 }
 .hitung {
-    padding: 10px 20px;
     background-color:seagreen;
     color: white;
     border: none;
     cursor: pointer;
+    display: block;
+    box-sizing: border-box;
 }
 .hitung:hover {
     background-color:#076b1d;
@@ -50,8 +52,9 @@ select, input, button {
     background-color: red;
     color: white;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
+    display: none;
+    box-sizing: border-box;
 }
 .reset:hover {
     background-color: darkred;

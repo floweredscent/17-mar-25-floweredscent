@@ -66,6 +66,7 @@ function hitung() {
     
     hasilelement.innerHTML = hasil;
     hasilelement.style.display = "block";
+    document.querySelector(".reset").style.display = "block";
 }
 
 function reset() {
@@ -74,4 +75,5 @@ function reset() {
     document.getElementById("lebar").value = "";
     document.getElementById("hasil").innerHTML = "";
     document.getElementById("hasil").style.display = "none";
+    document.querySelector(".reset").style.display = "none";
 }
