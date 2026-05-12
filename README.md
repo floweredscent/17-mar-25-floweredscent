@@ -14,7 +14,7 @@ The goal of this mini project was to create a website of Square Mathematic Calcu
     **Square:** 
     
     $$
-    Area=s2
+    Area=s × s
     $$
     
     $$
